@@ -1,38 +1,33 @@
-# Base limpa de API em Node
+# Clean API Base in Node.js
 
-Este repositório serve exclusivamente para oferecer uma base rápida para criação de APIs em Node.
+This repository is designed exclusively to provide a quick starting point for creating APIs in Node.js.
 
-Ele possui apenas a configuração básica do Express com Typescript e o primeiro router.
+It includes only the basic Express configuration with TypeScript and the initial router.
 
-## Instalação
-Você pode clonar o repositório e rodar:
+## Installation
+You can clone the repository and run:
 ```bash
 npm install
 ```
+And update the environment variables as needed.
 
-Depois clonar o arquivo `.env.example` para `.env.local`:
-```bash
-cp .env.example .env.local
-```
-E alterar as variáveis de ambiente.
-
-## Uso
-Para rodar o projeto, utilize o comando padrão:
+## Usage
+To run the project, use the standard command:
 ```bash
 npm run dev
 ```
 
-## Adicionais
-Caso queira, é interessante remover o `origin` do repositório, para adicionar seu próprio repositório remoto e continuar o desenvolvimento.
+## Additional Notes
+If desired, it’s a good idea to remove the repository’s `origin` and add your own remote repository to continue development.
 
-Para ver os repositórios remotos:
+To view remote repositories:
 ```bash
 git remote -v
 ```
 
-Para trocar o origin:
+To change the origin:
 ```bash
 git remote remove origin
 git remote add origin <url>
 ```
-Sendo `<url>` o diretório do seu repositório remoto.
+Where `<url>` is the path to your remote repository.
